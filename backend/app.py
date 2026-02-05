@@ -22,7 +22,7 @@ def init_db():
         )
     """)
     conn.commit()
-    return "Database ready!"
+    return "Database readyy!"
 
 # Add user
 @app.route("/add_user", methods=["POST"])
